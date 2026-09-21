@@ -1,0 +1,7 @@
+{
+  "name": "AURA CHROMATICA — Living Activewear",
+  "description": "An avant-garde art-tech fashion gallery and material research pavilion presenting sweat-reactive living textiles, integrated 3D micro-pore aeration, bespoke bio-synthesis lab, everyday human field studies, and longitudinal metamorphosis archives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

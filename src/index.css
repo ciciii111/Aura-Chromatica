@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-studio-bg: #FAF9F6;
+  --color-studio-stone: #F5F3EE;
+  --color-studio-card: #FFFFFF;
+  --color-studio-border: #E8E5DE;
+  --color-studio-text: #141518;
+  --color-studio-muted: #69707D;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF9F6;
+  color: #141518;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Editorial hairline crosshair marker */
+.crosshair-grid {
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(24, 26, 29, 0.08) 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
+/* Museum specimen glass shadow */
+.specimen-glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(230, 227, 220, 0.85);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5D1C7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5B0A4;
+}
+
